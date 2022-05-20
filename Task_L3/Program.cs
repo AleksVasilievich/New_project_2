@@ -1,7 +1,7 @@
 ﻿// Напишите программу ,которая принимает на вход число(A)
-// и выдаёт сумму чисел от 1до  A.
+// и выдаёт сумму чисел от 1 до  A.
 // 7 -> 28
-Console.WriteLine(" Введите натуральное число ");
+Console.WriteLine(" Введите натуральное число N ");
 int num = int.Parse(Console.ReadLine());
 
 int GetSumNambers(int namber)
@@ -26,3 +26,6 @@ Console.WriteLine($"Сумма чисел от 1 до {num} = {GetSumNambers(num
 //     sum = sum + i;
 // }
 // Console.WriteLine($"Сумма чисел от 1 до {num} = {sum}");
+
+
+
