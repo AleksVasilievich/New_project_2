@@ -4,14 +4,11 @@
 // 3, 5 -> 243 (3⁵)
 // 2, 4 -> 16
 
-Console.WriteLine(" Введите число a ");
+Console.Write(" Введите число A -> ");
 int a = int.Parse(Console.ReadLine());
-Console.WriteLine(" Введите число b ");
+Console.Write(" Введите число B -> ");
 int b = int.Parse(Console.ReadLine());
-
 int sum = 1;
 for (int i = 0; i < b; i++)
     sum = sum * a;
-
-
-Console.WriteLine(sum);
+Console.Write($" А  в  степени В -> {sum}");
